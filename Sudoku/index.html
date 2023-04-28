@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sudoku Game</h1>
+        
+        <div class="difficulty">
+            <button class="difficulty-btn" id="easy">Easy</button>
+            <button class="difficulty-btn" id="medium">Medium</button>
+            <button class="difficulty-btn" id="hard">Hard</button>
+        </div>
+        
+        <div class="sudoku-board">
+            <!-- The game board will be generated dynamically using JavaScript -->
+        </div>
+        
+        <button class="check-solution-btn" id="checkSolution">Check Solution</button>
+        
+        <div class="solver-section">
+            <h2>Sudoku Solver</h2>
+            <p>Input your own Sudoku:</p>
+            <div class="input-board">
+                <!-- The input board will be generated dynamically using JavaScript -->
+            </div>
+            <button class="solve-btn" id="solve">Solve</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
